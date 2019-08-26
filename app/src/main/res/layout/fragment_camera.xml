@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:id="@+id/llPreview"
+    >
+    <hr.ferit.dariomihelcic.doggo.camera.AutoFitTextureView
+        android:id="@+id/texture"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        />
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        >
+
+    <TextView
+        android:id="@+id/tvResultOne"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        />
+
+    <ImageButton
+        android:id="@+id/btnDogOne"
+         android:layout_width="100dp"
+        android:layout_height="30dp"
+        android:src="@mipmap/baseline_forward_black_18dp"
+        android:background="@null"
+        android:layout_toEndOf="@+id/tvResultOne"/>
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingBottom="5dp"
+
+        >
+    <TextView
+        android:id="@+id/tvResultTwo"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        />
+
+    <ImageButton
+        android:id="@+id/btnDogTwo"
+        android:layout_width="100dp"
+        android:layout_height="30dp"
+        android:textColor="@color/colorAccent"
+        android:src="@mipmap/baseline_forward_black_18dp"
+        android:background="@null"
+        android:layout_toEndOf="@+id/tvResultTwo"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingBottom="5dp"
+
+        >
+
+    <TextView
+        android:id="@+id/tvResultThree"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        />
+
+    <ImageButton
+        android:id="@+id/btnDogThree"
+        android:layout_width="100dp"
+        android:layout_height="30dp"
+        android:src="@mipmap/baseline_forward_black_18dp"
+        android:background="@null"
+        android:layout_toEndOf="@+id/tvResultThree"/>
+    </RelativeLayout>
+
+
+</LinearLayout>
